@@ -1,4 +1,6 @@
 
+window.alert("É possível que o site não seja compatível com a proporção do desktop");
+
 function selecionar() {
 }
 
