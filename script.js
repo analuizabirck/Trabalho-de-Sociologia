@@ -1,4 +1,3 @@
-window.alert("Caso ocorram erros de escala, tente ajustar o zoom do navegador.");
 
 function selecionar() {
 }
