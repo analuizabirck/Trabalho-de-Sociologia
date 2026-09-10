@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "gamefont";
+    src: url('fonts/gamefont.css');
+}
+body {
+    margin: 0;
+    background-color: rgb(255, 249, 241);
+    height: 1100px;
+    background: linear-gradient(to top, #ece2d0, rgb(255, 249, 241));
+}
+.secoes {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 175px;
+    background-color: rgb(241, 220, 185);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(
+        0 0,
+        calc(100% - 15px) 0,
+        100% 50%,
+        calc(100% - 15px) 100%,
+        0 100%,
+        15px 50%
+    );
+}
+#secao1 { left: 425px; }
+#secao2 { left: 570px; }
+#secao3 { left: 715px; }
+#secao4 { left: 860px; }
+#secao5 { left: 1005px; }
+#secao6 { left: 1150px; }
+#secao7 { left: 1295px; }
+
+
+.secoes h2 {
+    margin: 0;
+}
+.selecionar{
+    transform:scale(0.95)
+}
+.secoes p {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 100vh;
+    background-color:antiquewhite;
+    text-align: center;
+    border-right: 5px solid #f7efeb;
+}
+.titulo {
+    position: absolute;
+    top: 20px;
+    left: 36%;
+    transform: translateX(-50%);
+    transform:scale(1.5)
+}
+.subtitulo {
+    color:rgb(163, 163, 163);
+    position:absolute;
+    top: 75px;
+    left: 70%;
+    transform: translateX(-50%)
+}
+#conteudo {
+    position: absolute;
+    top: 240px;
+    left: 425px;
+    right: 40px;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+footer {
+    position: absolute;
+    top: 700px;
+    left: 430px;
+}
+#conteudo p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 22px;
+    color:rgb(134, 134, 134)
+}
+aside {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+aside p {
+    line-height: 1.5;
+}
+#representante p {
+    font-size: 21px;
+    color:rgb(130, 130, 130)
+}
+* {
+    user-select: none;
+}
+img {
+    transform: translate(750px, 300px) scale(0.28);
+    border: 15px solid #f1eeeb
+}
+#conteudo img + p {
+    margin-top: 5px;
+}
