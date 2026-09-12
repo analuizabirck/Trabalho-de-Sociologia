@@ -1,6 +1,3 @@
-
-window.alert("É possível que a exibição não seja compatível com a resolução do seu desktop");
-
 function selecionar() {
 }
 
